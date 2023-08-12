@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+ border: 1px solid black;
+ height: 250px;
+ width: 150px;
+ background-color: white;
+ border-radius: 10px;
+ background-image: url("./components/cappy.png");
+ background-size: 150px 250px;
+ display: flex; 
+ justify-content: space-evenly;
+ margin-inline: 30px;
+ }
+ .deck {
+ border: 1px solid black;
+ height: 250px;
+ width: 150px;
+ border-radius: 10px;
+ background-image: url("./components/backcard.jpg");
+ background-size: 150px 250px;
+ display: flex;
+ margin-right: 100px;
+ justify-content: center;
+
+}
+
+ .normal-card {
+ border: 1px solid black;
+ height: 180px;
+ margin-top: 20px;
+ width: 100px;
+ border-radius: 10px;
+ background-image: url("./components/cats.jpg");
+ background-size: 100px 180px;
+ display: flex; 
+ justify-content: center;
+ margin-right: 0.5%;
+
+ }
+ .card-body {
+  align-self: center;
+  font-size: xxx-large;
+ }
+ .deck-body {
+  align-self: center;
+  font-size: xx-large;
+ }
+.center-play{
+  display: flex; 
+  justify-content:center;
+  
+}
+.player-cards{
+  display: flex; 
+  justify-content: space-around;
+}
+
+.iconup {
+  margin-top: 5%;
+  align-self: flex-start;
+}
+.icondown {
+  margin-bottom: 5%;
+  align-self: flex-end;
+}
+.transparent-button {
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  color: rgba(0, 0, 0, 0.979);
+  font-size: x-large;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.box {
+  text-align: right;
+  justify-content: right;
+  width: 150px; /* Set the width of the box */
+  height: 100px; /* Set the height of the box */
+  font-size: large;
+  font-weight: bold;
+
+}
