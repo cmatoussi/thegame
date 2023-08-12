@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# The Game Set Up
+  1. Clone or download repository
+  2. navigate to project folder
+  3. run npm start
+  4. Open http://localhost:3000 to play the game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Instructions
+- The player needs to discard all 98 cards in the deck onto four discard piles in order to win while following certain rules.
+- The player starts 8 cards in their hand and four discard pile prompt cards are on the table: two showing "1" and an up arrow and two showing "100" and a down arrow.
+- On a turn, a player must discard at least two cards from their hand onto one or more discard piles
+- Cards on the 1 piles are placed in ascending order and cards on the 100 piles are placed in descending order
+- You can play a card exactly 10 higher/lower than the top card of a discard pile even when you would normally have to play in a descending/ascending order (e.g., if a 100 discard pile is topped with an 87, you can play any card lower than 87 or you can play the 97)
+- After a player finishes their turn, they refill their hand from the deck.
+- If you play all 98 cards, you win!
+- your final score is the number of cards left in the deck and the cards you haven't played yet. The lower score the better.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Reference:
+  This game is an adapted implementation of the Pendasaurus card game "The Game". To learn more about the game you can check out https://pandasaurusgames.com/products/the-game-kwanchai-moriya-edition.
+  
