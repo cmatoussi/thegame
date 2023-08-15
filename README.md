@@ -16,6 +16,7 @@
   
 # Demo:
 <img width="960" alt="image" src="https://github.com/cmatoussi/thegame/assets/46854568/ece0de55-8645-47d1-8f94-8701f57ba939">
+
 To view the full demo download "The Game Demo" video  in the main project
 
 # Reference:
