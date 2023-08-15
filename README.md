@@ -13,9 +13,11 @@
 - After a player finishes their turn, they refill their hand from the deck.
 - If you play all 98 cards, you win!
 - your final score is the number of cards left in the deck and the cards you haven't played yet. The lower score the better.
+  
 # Demo:
 <img width="960" alt="image" src="https://github.com/cmatoussi/thegame/assets/46854568/ece0de55-8645-47d1-8f94-8701f57ba939">
-To view the full demo download "The Game Demo" video 
+To view the full demo download "The Game Demo" video  in the main project
+
 # Reference:
   This game is an adapted implementation of the Pendasaurus card game "The Game". To learn more about the game you can check out https://pandasaurusgames.com/products/the-game-kwanchai-moriya-edition.
   
