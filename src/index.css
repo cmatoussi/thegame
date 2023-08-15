@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f6edff;
+
 }
 
 code {
@@ -86,11 +88,27 @@ code {
   transition: background-color 0.3s ease;
 }
 .box {
-  text-align: right;
-  justify-content: right;
-  width: 150px; /* Set the width of the box */
+  text-align: left;
+  margin-left: 1%;
+  width: 80px; /* Set the width of the box */
   height: 100px; /* Set the height of the box */
   font-size: large;
   font-weight: bold;
 
+}
+.game-over{
+  background-color: rgb(213, 163, 238);
+}
+.play-again{
+  margin-top: 2%;
+  background-color: rgb(63, 255, 63);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: large;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.spacer {
+  margin: 10px; /* Adjust the margin value to control the spacing */
 }
